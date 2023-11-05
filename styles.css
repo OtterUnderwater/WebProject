@@ -1,0 +1,163 @@
+/*Фон*/
+.main-background {
+    background-color: #1C1C20;
+    background-image: url(/images/background_noise.png);
+    background-repeat: repeat; /*повтор картинки*/
+}
+/*Шапка*/
+.head-location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131316;
+    background-repeat: repeat;
+    border-bottom: 2px solid #4A4A4D;
+    padding: 20px;
+}
+/*Курсор*/
+*{
+    cursor: url('./images/cursor.png'), pointer;
+}
+
+/*Расположение лого*/
+.location-logo{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 10px;
+    margin-left: 50px; 
+}
+/*лого*/
+.head-img {
+    width: 40px;
+    height: 40px;
+ }
+ /*текст лого*/
+.logo-text{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Tektur;
+    color: #FFFFFF;
+}
+/*Цвет первой буквы*/
+.logo-text:first-letter {
+    color: #00ADEF;
+}
+
+/*Расположение меню*/
+.location-menu{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 30px;
+}
+ /*меню*/
+ .menu-button{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Tektur;
+    color: #FFFFFF;
+}
+/*собатие при наведении на меню*/
+.menu-button:hover {
+    color: #00ADEF; 
+}
+
+/*Расположение кнопок регистрации*/
+.location-reg{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Tektur;
+    color: #000000;
+    margin-right: 50px; 
+}
+ /*регистрация и вход*/
+.enter{
+    background-color: #005E82;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+.registration{
+    background-color: #00ADEF;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+ /*Сайт*/
+/*приветствие*/
+ .location{
+    display: flex;
+    flex-direction:row;
+}
+.context-hello {
+    background: linear-gradient(to right, #005E82, #540054);
+    border-radius: 20px;
+    margin: 50px 200px 50px 200px;
+    padding: 100px;
+}
+.hello {
+    background-color: #1C1C20;
+    border-radius: 20px;
+    padding: 100px;
+}
+.heart-img {
+    width: 464px;
+    height: 400px;
+}
+.all-text{
+    margin: 50px 50px 50px 50px; /*В П Н Л*/
+    font-family: Tektur;
+    font-weight: normal;
+    color:#FFFFFF;
+    font-size: 20px;
+}
+.text1{
+    align-content: center;
+    padding: 15px;
+    margin: 0px 20px 0px 10px; /*В П Н Л*/
+}
+.text2{
+    color:#FF53EE;
+}
+.text3{
+    color:#00ADEF;
+}
+/*Пункты*/
+.list{
+    margin: 80px 0px 0px 100px;
+}
+.list>li{
+    margin-top: 50px;
+}
+/*блок в пункте*/
+.item-name{
+    font-family: Tektur;
+    font-weight: normal;
+    color:#FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    width: 600px;  
+    height: 60px;
+    transform: skew(-20deg);
+    background: linear-gradient(to right, #002F41, #005E82, #002F41);
+    padding: 10px 0px 10px 0px;
+}
+.item-block{
+    background: linear-gradient(to right, #242527, #003C54);
+    border-radius: 20px;
+    margin: 0px 300px 0px 200px;
+    padding: 30px 100px 30px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+ }
